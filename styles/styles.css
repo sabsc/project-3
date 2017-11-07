@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=News+Cycle|Roboto:300|Raleway:900|PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300|Raleway:900|PT+Serif');
 
 body, html {
 	width: 100%;
@@ -9,7 +9,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Raleway";
+	font-family: 'Playfair Display';
     font-weight: 900;
     font-style: normal;
 }
@@ -27,23 +27,31 @@ h4 {
 }
 
 h1 {
-	font-size: 4.6vmax;
-	color: white;
+	font-size: 6.5vmax;
 	font-weight: 900;
-	padding-top: 35%;
-	text-shadow: 2px 2px black;
-}
-
-@media only screen 
-  and (min-device-width: 1024px)  {
-  	h1 {
-  		margin-left: 20%;
-  		margin-right: 20%;
-  	}
-
 }
 
 
+.firstcharacter {
+  float: left;
+  font-family: 'PT Serif';
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.byline {
+	text-align: center;
+	font-weight: 900;
+}
+
+
+.byline-2 {
+	text-align: center;
+	font-weight: 200;
+}
 
 p {
 	font-family:  'PT Serif', serif;
