@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>A Brief History of Free and Reduced School Lunches</title>
+  <meta name="description" content="Features">
+  <meta name="author" content="The Dallas Morning News">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <link href="c3/c3.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<header>
+	</header>
+
+	<div class="parallax-header">
+		<h1>Participation in the National School Lunch Program (NSLP)</h1>
+
+	</div>
+
+	<div class="body-container">
+
+	<h2>The National School Lunch Program</h2>
+	<p>The <a href="https://www.fns.usda.gov/nslp/history" target="_blank">National School Lunch Program (NSLP)</a> is a federally assisted meal program that provides nutritionally balanced, low-cost or free lunches to children each school day. Students in residential child care programs, public schools and nonprofit private schools have access to this program. Eligibility is determined by <a href="https://www.fns.usda.gov/school-meals/income-eligibility-guidelines" target="_blank">federal guidelines.</a></p>
+
+	<h2>A Brief History</h2>
+	<p>President Harry Truman created the NSLP in 1971 through the Richard B. Russell National School Lunch Act. Free lunches were previously offered but no nationally standardized program existed.</p>
+
+	<h3>Total Participants Over Time</h3>
+	<p>Program success is generally measured by number of participants. In 1971, there were 24.1 million children in the NSLP. In 2010, there were 31.8 million.</p>
+	<div id="numbers-over-time1"></div>
+
+	<h3>Lunches Served Over Time</h3>
+	<p>Program success can be measured in lunches served. In 1971, there were 3848.3 million lunches served. In 2010, the program peaked with 5278.4 million. Note that while the data is similar, it is not the same.</p>
+	<div id="numbers-over-time2"></div>
+
+	<h3>Free and Reduced Lunch Participants Over Time</h3>
+	<p>The composition of free versus reduced price lunch recipients has also shifted over time. The number of people getting reduced price lunches is relatively stable. Numbers are growing faster for free lunch recipients. Here is the breakdown, in millions of people.</p>
+	<div id="free-vs-reduced-chart"></div>
+
+	<h3>Participant Breakdown Based On Highest and Lowest Free Lunches</h3>
+	<h4>2016: Highest Number of Free Lunches</h4>
+	<p>There was the highest number of free lunches in 2016. This is how the percentages of free, reduced and full priced lunch recipients measured then.</p>
+	<div id="highest-free-chart"></div>
+
+	<h4>1969: Lowest Number of Free Lunches</h4>
+	<p>There was the lowest number of free lunches in 1969, before the National School Lunch Act. The same percentages are shown below. There were no reduced price lunches before the NSLP.</p>
+	<div id="lowest-free-chart"></div>
+
+
+	<h2>Data Table</h2>
+	<p>This table displays <a href="https://catalog.data.gov/dataset/national-school-lunch-assistance-program-participation-and-meals-served-data" target="_blank">government data</a> about the NSLP. All values are in millions except for fiscal years and the percent free over reduced price of total.</p><br/>
+
+
+	<table id="data-table" class="hover row-border" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Fiscal Year</th>
+                <th>Free Lunches</th>
+                <th>Reduced Price Lunches</th>
+                <th>Full Price Lunches</th>
+                <th>Total</th>
+                <th>Total Lunches</th>
+                <th>Percent Free/Reduced Price of Total</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Fiscal Year</th>
+                <th>Free Lunches</th>
+                <th>Reduced Price Lunches</th>
+                <th>Full Price Lunches</th>
+                <th>Total</th>
+                <th>Total Lunches</th>
+                <th>Percent Free/Reduced Price of Total</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br/><br/>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script src="js/d3.min.js" charset="utf-8"></script>
+	<script src="js/c3.min.js"></script>
+
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+	<script src="js/scripts.js"></script>
+
+	</div>
+</body>
+
+</html>
